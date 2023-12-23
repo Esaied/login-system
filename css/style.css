@@ -1,0 +1,51 @@
+:root{
+    --bg-color :#24353F;
+    --white : #f3f3f3;
+    --font:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font)
+}
+p,a,h2,h3,h4,h5,h6,input{
+    color: var(--white) !important;
+}
+.login{
+    background-color: var(--bg-color);
+    box-shadow: -5px 2px 55px -10px rgba(0, 0, 0, 1);
+}
+.sign{
+    text-decoration: none;
+    color: var(--white);
+}
+.sign:hover{
+    text-decoration: underline;
+}
+input::placeholder{
+    color: var(--white) !important;
+}
+.rules{
+    font-size: 11px;
+    font-style: italic;
+}
+
+/* welcome page */
+.navbar{
+    background-color: var(--bg-color) !important;
+    box-shadow: -5px 2px 55px -10px rgba(0, 0, 0, 1);
+}
+.welcome{
+    text-align: center;
+    margin: 50px;
+    height: 200px;
+    background-color: var(--bg-color);
+    box-shadow: -5px 2px 55px -10px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
